@@ -17,7 +17,7 @@ spec:
           image: hashicorp/http-echo:1.0.0
           args:
             - "-listen=:5678"
-            - "-text=Hallo Welt! v1"
+            - "-text=Hallo Welt! v2"
           ports:
             - containerPort: 5678
 ---
